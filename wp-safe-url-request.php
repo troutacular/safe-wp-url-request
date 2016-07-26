@@ -11,7 +11,7 @@
  *
  * Gets the body content from the requested URL.
  *
- * @usage    wp_safe_url_request( 'http://some.site.com' );
+ * @usage wp_safe_url_request( 'http://some.site.com' );
  * @param string $url   URL requested.
  * @param array  $args  Arguments to use with wp_safe_remote_get.
  * @return string       Output of URL <body>
