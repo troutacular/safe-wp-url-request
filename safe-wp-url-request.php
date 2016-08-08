@@ -1,8 +1,8 @@
 <?php
 /**
- * WordPress safe URL request function.
+ * WordPress safe URL request function with error output.
  *
- * @package wp_safe_url_request
+ * @package safe_wp_url_request
  * @since 1.0.0
  */
 
@@ -15,7 +15,7 @@
  * @param array  $args  Arguments to use with wp_safe_remote_get.
  * @return string       Output of URL <body>
  */
-function wp_safe_url_request( $url, $args = null ) {
+function safe_wp_url_request( $url, $args = null ) {
 
 	// Default the response to null.
 	$response = null;
